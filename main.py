@@ -10,8 +10,8 @@ from pandas_ods_reader import read_ods
 from template import of_xml, delete_files_in_folder
 
 # Настройка подключения к почтовому ящику
-mail_pass = "vfU4tHcNtuarf8ULLBxc"  # пароль от почтового ящика
-username = "counter@eobuv.ru"  # адресс почтового ящика
+mail_pass = ""  # пароль от почтового ящика
+username = ""  # адресс почтового ящика
 imap_server = "imap.mail.ru"  # почтовый сервер
 imap = imaplib.IMAP4_SSL(imap_server)  # Подключение к почтовому серверу
 imap.login(username, mail_pass)  # авторизация на почтовом сервере
